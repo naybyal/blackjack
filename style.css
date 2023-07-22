@@ -1,0 +1,42 @@
+body {
+    background: scroll;
+    background-color: #292C6D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FAEDF0;
+}
+
+.deck {
+    background-color: #161853;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    border-style: dashed;
+    top: 50%;
+    left: 50%;
+    border-color: #292C6D;  
+    /* opacity: 90%;  */
+}
+button {
+    color: #FAEDF0;
+    background-color: #EC255A;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px black;
+}
+h1 {
+    color: goldenrod
+}
+button:disabled {
+    background-color: #161853;
+    color: darkgrey; 
+    box-shadow: none
+}
+#ageInput {
+    width: 80px;
+    background-color: #292C6D;
+    border: none;
+    color: #FAEDF0;
+    padding: 2px;
+    margin: 2px;
+}
